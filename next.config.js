@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'standalone',
   trailingSlash: false,
-  // Adicione se estiver usando app router
+  // Para Next.js 15 com App Router
   experimental: {
     appDir: true
   }
